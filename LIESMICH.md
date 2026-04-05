@@ -87,12 +87,23 @@ _Bild 4: Blockpanel, Halterung und Schaltblock für eine linke Zweiwegweiche_
 
 Im Rahmen sind für Steuerblöcke 42 x 42 mm² große Ausnehmungen vorgesehen (siehe zB _Bild 1_).   
 
-Folgende Blockpanel sind verfügbar:   
-* ...
-* Leeres Blockpanel   
-* Leeres Blockpanel-Shield ohne PadBlock   
+Folgende Blockpanel sind unter anderem verfügbar:   
+* Linke Zweiwegweiche Richtung Osten (`Blockpanel_T2LE_260318.FCStd`)   
+* Linke Zweiwegweiche Richtung Westen (`Blockpanel_T2LW_260318.FCStd`)   
+* Rechte Zweiwegweiche Richtung Osten (`Blockpanel_T2RE_260318.FCStd`)   
+* Rechte Zweiwegweiche Richtung Westen (`Blockpanel_T2RW_260318.FCStd`)   
+* Dreiwegweiche Richtung Osten (`Blockpanel_T3E_260318.FCStd`)   
+* Dreiwegweiche Richtung Westen (`Blockpanel_T3W_260318.FCStd`)   
+* Entkuppler (`Blockpanel_Uncoupler_Text_260322.FCStd`)   
+* Abschaltbares Gleis (`Blockpanel_DisconTrack_Text_260322.FCStd`)   
+* Leeres Blockpanel (`Blockpanel_empty_260403.FCStd`)   
+* Leeres Blockpanel-Shield ohne PadBlock (`Blockpanel_empty_shield_260405.FCStd`)   
 
+Das folgende Bild zeigt die entsprechenden Grafiken:   
+![Blockpanel_1](./images/300_3D_blockpanel_1of3.png "Blockpanel_1") ![Blockpanel_2](./images/300_3D_blockpanel_2of3.png "Blockpanel_2") ![Blockpanel_3](./images/300_3D_blockpanel_3of3.png "Blockpanel_3")   
+_Bild 5: Arten von Blockpanel_   
 
+Das Blockpanel-Shield dient dazu, die Schrauben zwischen den Frontrahmenteilen abzudecken.   
 
 [Zum Seitenanfang](#up)
 <a name="x40"></a>   
