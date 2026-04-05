@@ -1,5 +1,5 @@
 <table><tr><td><img src="./images/96_RCC5V_Logo.png"></img></td><td>
-Letzte &Auml;nderung: 2.4.2026 <a name="up"></a><br>   
+Letzte &Auml;nderung: 5.4.2026 <a name="up"></a><br>   
 <h1>3D-Druck-Teile für N-Spur-Module</h1><h3></h3>
 <a href="#TableOfContents">==> Inhaltsverzeichnis</a>&nbsp; &nbsp; &nbsp;  &nbsp; 
 <a href="README.md">==> English version</a>

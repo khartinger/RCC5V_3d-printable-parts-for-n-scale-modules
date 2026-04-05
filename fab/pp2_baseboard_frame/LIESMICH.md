@@ -1,4 +1,4 @@
-<table><tr><td><img src="./images/96_RCC5V_Logo.png"></img></td><td>
+<table><tr><td><img src="../images/96_RCC5V_Logo.png"></img></td><td>
 Letzte &Auml;nderung: 5.4.2026 <a name="up"></a><br>   
 <h1>Rahmenteile</h1><h3>3D-Druck-Teile für N-Spur-Module</h3>
 <a href="#TableOfContents">==> Inhaltsverzeichnis</a>&nbsp; &nbsp; &nbsp;  &nbsp; 
