@@ -25,32 +25,45 @@ Dieses Repository beschäftigt sich mit dem Entwurf und Druck von Modulrahmentei
 <a name="x20"></a>   
 
 # 2. Rahmenteile
-Die hier vorgestellten Rahmenteile für N-Module haben eine Breite von 25 cm und Längen von 25 bis 100 cm. Da der Drucker maximal 36 cm lange Teile drucken kann, werden die Längsrahmenteile in 25 cm große Abschnitte unterteilt.   
+Die hier vorgestellten Rahmenteile für 25 cm breite N-Module haben Längen von 25 bis 100 cm. Da der Drucker maximal 36 cm lange Teile drucken kann, werden die Längsrahmenteile in 25 cm große Abschnitte unterteilt.   
 Das folgende Bild gibt eine Übersicht über die Hauptarten von Rahmenteilen.   
-![Uebersicht Rahmenteile](./images/300_3D_frameparts1.png "Uebersicht Rahmenteile")   
+
+![Uebersicht Rahmenteile](./images/300_3D_frameparts_overview.png "Uebersicht Rahmenteile")   
 _Bild 1: Übersicht über die Lage der Rahmenteile_   
 
-Zusätzlich zu den Hauptarten von Rahmenteilen gibt es verschiedene Unterarten.   
+Im Detail gibt es folgende Rahmenteile:   
 #### Seitenteile ("West", "Ost")
 * Eingleisiger Seitenteil mit Gleis in der Mitte des Rahmenteils   
+  Datei: `Rahmen_SeiteEingleisig_260312.FCStd`   
 * Zweigleisiger Seitenteil mit zwei Gleisen in der Mitte des Rahmenteils   
+  Datei: `Rahmen_SeiteZweigleisig_260312.FCStd`   
 
 
-#### Frontrahmen ("Süd")
+#### Frontrahmen (im Süden)
 * Frontrahmen West   
 * Frontrahmen Süd (Mitte)   
 * Frontrahmen Ost   
 
-Zusätzlich enthalten die Frontrahmen meist noch Aussparungen für die Steuerblöcke und/oder den OLED-Block (Steuerblock). Somit gibt sich für die Benennung der Frontrahmen folgende Syntax:   
+Frontrahmen enthalten meist noch Aussparungen für die Steuerblöcke und/oder den OLED-Block (Steuerblock). Somit gibt sich für die Benennung folgende Syntax:   
+```   
+Rahmen_Front_L_1234_240mm_260401.FCStd
+ Name _ Typ _L_Fenster_Länge_Datum
 
+L ...... Lage: E = Ost (East), S = Süd, W = West
+1234 ... Fenster (1 bis 4 oder OLED)
+```   
+__*Beispiel*__   
+![Rahmen_Front_W_Oled_4](./images/300_Rahmen_Front_W_Oled_4.png "Rahmen_Front_W_Oled_4")   
+ Ein Frontrahmen an der Westseite mit Oled-Aussparung und einem Fenster an der 4. Position hat somit den Dateinamen   
+`Rahmen_Front_W_Oled_4_240mm_260401.FCStd`    
 
 #### Rückseitiger Rahmen ("Nord")
 * Der rückseitige (nördliche) Rahmen wird oft aus Pappelsperrholz gefertigt, da dieser meist einfach zu fertigen und preiswerter ist.   
 Es können aber auch die 3D-Frontrahmen ohne Aussparungen verwendet werden.   
 
 #### Querstreben
-Die Querstreben für den 3D-Rahmen unterscheiden sich von d er bisherigen Holzquerstreben durch die Lage der seitlichen Bohrungen:   
-![Bohrungen Querstreben](./images/300_3D_frameparts1.png "Bohrungen Querstreben")   
+Die Querstreben für den 3D-Rahmen unterscheiden sich von den bisherigen Holzquerstreben durch die Lage der seitlichen Bohrungen und die Lage der seitlichen Durchführung:   
+![Bohrungen Querstreben](./images/300_3D_pos_holes_cross_member.png "Bohrungen Querstreben")   
 _Bild .: Seitliche Bohrungen bei Holz- und 3D-Querstreben_   
 
 
