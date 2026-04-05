@@ -9,7 +9,7 @@ Letzte &Auml;nderung: 5.4.2026 <a name="up"></a><br>
 
 # 1. Worum geht es?
 Im Repository [`khartinger/RCC5V`](https://github.com/khartinger/RCC5V/blob/main/LIESMICH.md) werden Steuerelemente für Weichen, Gleise usw. vorgestellt, die zum Beispiel in N-Spur-Modelleisenbahn-Modulen eingesetzt werden. Für den Bau solcher Module wird oft Pappelsperrholz verwendet, es ist aber auch möglich, Teile mit dem 3D-Drucker herzustellen.   
-Eine Beschreibung für den Holzrahmenbau findet sich zB in [https://github.com/khartinger/RCC5V/blob/main/examples/module12/LIESMICH.md](https://github.com/khartinger/RCC5V/blob/main/examples/module12/LIESMICH.md#20)   
+Ein Beispiel für den Modulrahmenbau aus Holz findet sich unter anderem in [https://github.com/khartinger/RCC5V/blob/main/examples/module12/LIESMICH.md](https://github.com/khartinger/RCC5V/blob/main/examples/module12/LIESMICH.md#20)   
 Dieses Repository beschäftigt sich mit dem Entwurf und Druck von Modulrahmenteilen sowie Teilen für den Gleisunterbau. Als Software wird das kostenlose, quelloffene (Open-Source) [ 3D-CAD-Programm Freecad](https://www.freecad.org/), als 3D-Drucker wird ein [Prusa-XL-Drucker](https://www.prusa3d.com/de/produkt/original-prusa-xl-3d-drucker/) verwendet. Der Drucker hat ein maximales Druckvolumen von 360 x 360 x 360 mm³.   
 
 <a name="TableOfContents"></a>   
@@ -45,9 +45,16 @@ Zusätzlich enthalten die Frontrahmen meist noch Aussparungen für die Steuerbl�
 
 
 #### Rückseitiger Rahmen ("Nord")
-* Der rückseitige (nördliche) Rahmen wird oft aus Pappelsperrholz gefertigt, da er einfach zu fertigen ist 
+* Der rückseitige (nördliche) Rahmen wird oft aus Pappelsperrholz gefertigt, da dieser meist einfach zu fertigen und preiswerter ist.   
+Es können aber auch die 3D-Frontrahmen ohne Aussparungen verwendet werden.   
 
 #### Querstreben
+Die Querstreben für den 3D-Rahmen unterscheiden sich von d er bisherigen Holzquerstreben durch die Lage der seitlichen Bohrungen:   
+![Bohrungen Querstreben](./images/300_3D_frameparts1.png "Bohrungen Querstreben")   
+_Bild .: Seitliche Bohrungen bei Holz- und 3D-Querstreben_   
+
+
+
 
 #### Rahmen-Distanzplättchen
 
