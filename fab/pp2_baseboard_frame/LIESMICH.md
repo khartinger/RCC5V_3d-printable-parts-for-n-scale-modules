@@ -21,13 +21,13 @@ In diesem Verzeichnis befinden sich die Freecad-Zeichnungen der Rahmenteile. Wei
 
 # 2. Seitliche Rahmenteile
 Seitliche Rahmenteile bestehen aus dem Basisteil und dem Aufsatz für das Gleis, wie das folgende Bild zeigt:   
-![Seitlicher Rahmenteil](./images/300_frame_side_1-rail.png "Seitlicher Rahmenteil")   
+![Seitlicher Rahmenteil](/images/300_frame_side_1-rail.png "Seitlicher Rahmenteil")   
 _Bild 1: Seitlicher Rahmenteil mit einem Gleis in der Mitte_   
 
 _Anmerkung_: Der Gleisaufbau ist blau markiert.   
 
 Das folgende Bild zeigt die Maße des seitlichen Rahmenteils:   
-![Maße seitlicher Rahmenteil](./images/300_frame_side_dim_1-rail.png "Maße seitlicher Rahmenteil")   
+![Maße seitlicher Rahmenteil](/images/300_frame_side_dim_1-rail.png "Maße seitlicher Rahmenteil")   
 _Bild 2: Maße des seitlichen Rahmenteils mit einem Gleis in der Mitte_   
 
 
