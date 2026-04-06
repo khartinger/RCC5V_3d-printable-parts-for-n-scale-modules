@@ -31,22 +31,16 @@ Alle Blockpanels:
 - haben ein **Beschriftungsfeld**   
 - haben **die gleichen Abmessungen**   
 
-## Löcher für Taster und LEDs
-Die Löcher passen genau zu den Tastern und LEDs des Steuerblocks.   
-
-## Feld zum Beschriften
-Größe des Beschriftungsfelds: **40 × 7 mm²**   
-
-## Abmessungen
-* **Außenmaße:** 46 × 54 mm²   
-* **Maße des 10 mm dicken Blocks:** 42 × 42 mm²   
+**Beschriftungsfeld:** 40 × 7 mm²  
+**Außenmaße:** 46 × 54 mm²  
+**Maße des 10 mm dicken Blocks:** 42 × 42 mm²
 
 <a name="x30"></a>   
 
 # 3. Panel für Zweiwegweichen
 Zweiwegweichen gibt es als **links oder rechts abzweigende Weichen**.   
 Sie können in Modulen nach **links (West)** oder **rechts (Ost)** geöffnet sein.   
-Damit gibt es **vier Varianten**, wie das Bild zeigt:   
+Damit gibt es **vier Varianten**:   
 
 ![Blockpanel_Zweiwegweiche](/images/300_3D_blockpanel_1of3.png "Blockpanel_Zweiwegweiche")   
 
@@ -60,7 +54,7 @@ Damit gibt es **vier Varianten**, wie das Bild zeigt:
 
 # 4. Panel für Dreiwegweichen
 Dreiwegweichen können nach **links (West)** oder **rechts (Ost)** geöffnet sein.   
-Es gibt also **zwei Varianten**, wie das Bild zeigt:   
+Es gibt **zwei Varianten**:   
 
 ![Blockpanel_Dreiwegweiche](/images/300_3D_blockpanel_2Aof3.png "Blockpanel_Dreiwegweiche")   
 
