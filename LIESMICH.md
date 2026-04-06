@@ -10,7 +10,13 @@ Letzte &Auml;nderung: 6.4.2026 <a name="up"></a><br>
 # 1. Worum geht es?
 Dieses Repository enthält **3D‑Druck‑Vorlagen und CAD‑Dateien** für den Bau von **Modulrahmen, Gleisunterbau und Zubehörteilen** im **N‑Spur‑Maßstab** (1:160). Die Teile wurden mit dem kostenlosen [3D-CAD-Programm **Freecad**](https://www.freecad.org/) erstellt und eignen sich zum Drucken auf einem 3D‑Drucker – z. B. einem [**Prusa-XL**](https://www.prusa3d.com/de/produkt/original-prusa-xl-3d-drucker/) mit einem Bauraum von bis zu 360 × 360 × 360 mm³.   
 
-Die im Repository [`khartinger/RCC5V`](https://github.com/khartinger/RCC5V/blob/main/LIESMICH.md) hergestellten Steuerelemente für Weichen, Gleise usw. können in die Rahmenteile eingebaut werden.   
+## 🧭 Übersicht
+
+**Ziel des Projekts**   
+Dieses Repository soll helfen, modulare Teile für den Modellbahnbau selbst zu entwerfen und zu drucken – von Rahmen‑Elementen über Schotterbett‑Teile bis hin zu nützlichen Werkzeugen für den Aufbau.   
+
+**Hinweis für Anfänger**   
+Falls du noch nie mit FreeCAD oder GitHub gearbeitet hast, keine Sorge – es gibt viele Tutorials zu FreeCAD und Grundwissen zu GitHub, die dir helfen, Dateien herunterzuladen und zu verwenden.   
 
 <a name="TableOfContents"></a>   
 
@@ -34,43 +40,36 @@ Im Repository findest du dafür:
 - 🔩 Querstreben mit Bohrungen und Rastnasen   
 - 📏 Abstandshalter für präzise Länge   
 
-> Hinweis: Die Teile sind so gestaltet, dass sie sich **mit Schrauben und Rastnasen** einfach zusammensetzen lassen.   
+> Hinweis 1: Die Teile sind so gestaltet, dass sie sich **mit Schrauben und Rastnasen** einfach zusammensetzen lassen.   
+> Hinweis 2: In den **Frontrahmen** gibt es Ausnehmungen, in die Steuerblöcke aus dem Repository [`khartinger/RCC5V`](https://github.com/khartinger/RCC5V/blob/main/LIESMICH.md) eingesetzt werden.   
 
 ---   
-Mehr Informationen und Dateien zu den Rahmenteilen findest du hier: [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md).   
+Mehr Informationen und Dateien zu Rahmenteilen findest du hier:   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md).   
 
 [Zum Seitenanfang](#up)
 <a name="x30"></a>   
 
 # 3. Blockpanel
-Blockpanel sind die Frontplatten der Steuerblöcke. Auf sie wird mit M 2,6 x 10 Schrauben die [Halterung für Schaltblöcke (`RW_LEER_LED`)](https://github.com/khartinger/RCC5V/blob/main/fab/rcc5_add_ons/LIESMICH.md#x20) aufgeschraubt. In weiterer Folge wird dann ein Schaltblock - bestehend aus Steuerungs- und Anzeige-Platine - in die Halterung eingesteckt.   
-Das folgende Bild zeigt ein Blockpanel, die Halterung und den Schaltblock für eine linke Zweiwegweiche.   
+Blockpanels sind die **Frontplatten für Steuerblöcke** aus dem Repository [`khartinger/RCC5V`](https://github.com/khartinger/RCC5V/blob/main/LIESMICH.md).   
 
-![Blockpanel_Halterung_Schaltblock](/images/300_3D_blockpanel_block1.png "Blockpanel_Halterung_Schaltblock")   
-_Bild 5: Blockpanel, Halterung und Schaltblock für eine linke Zweiwegweiche_   
+- Sie haben **Löcher für Taster und LEDs**.   
+- Sie zeigen symbolisch die **Funktion des Steuerblocks** (im Bild hellblau).   
+- Es gibt ein **Feld zum Beschriften**.   
+- Sie passen in **Ausnehmungen** im **Frontrahmen**.   
 
-Im Rahmen sind für Blockpanel 42 x 42 mm² große Ausnehmungen vorgesehen (siehe zB _Bild 1_).   
+Das Bild zeigt das Blockpanel für eine linke Zweiwegweiche:   
+![Blockpanel_Zweiwegweiche](/images/150_3D_blockpanel_W2LE.png "Blockpanel_Zweiwegweiche")   
 
-Folgende Blockpanel sind unter anderem verfügbar:   
-* Linke Zweiwegweiche Richtung Osten (`Blockpanel_T2LE_260318.FCStd`)   
-* Linke Zweiwegweiche Richtung Westen (`Blockpanel_T2LW_260318.FCStd`)   
-* Rechte Zweiwegweiche Richtung Osten (`Blockpanel_T2RE_260318.FCStd`)   
-* Rechte Zweiwegweiche Richtung Westen (`Blockpanel_T2RW_260318.FCStd`)   
-* Dreiwegweiche Richtung Osten (`Blockpanel_T3E_260318.FCStd`)   
-* Dreiwegweiche Richtung Westen (`Blockpanel_T3W_260318.FCStd`)   
-* Entkuppler (`Blockpanel_Uncoupler_Text_260322.FCStd`)   
-* Abschaltbares Gleis (`Blockpanel_DisconTrack_Text_260322.FCStd`)   
-* Leeres Blockpanel (`Blockpanel_empty_260403.FCStd`)   
-* Leeres Blockpanel-Shield ohne PadBlock (`Blockpanel_empty_shield_260405.FCStd`)   
+### 🛠️ Halterung für Steuerblöcke
+Die [Halterung für Steuerblöcke (`RW_LEER_LED`)](https://github.com/khartinger/RCC5V/blob/main/fab/rcc5_add_ons/LIESMICH.md#x20) wird **hinten auf das Blockpanel geschraubt**. In diese Halterung wird **der Schaltblock gesteckt**, sodass er sicher montiert ist und die Taster/LEDs korrekt sitzen.   
 
-Das folgende Bild zeigt die entsprechenden Grafiken:   
-![Blockpanel_1](/images/300_3D_blockpanel_1of3.png "Blockpanel_1") ![Blockpanel_2](/images/300_3D_blockpanel_2of3.png "Blockpanel_2") ![Blockpanel_3](/images/300_3D_blockpanel_3of3.png "Blockpanel_3")   
-_Bild 6: Arten von Blockpanel_   
-
-Das Blockpanel-Shield dient dazu, die Schrauben zwischen den Frontrahmenteilen abzudecken.   
+### 🛠️ Montage im Rahmen
+Im Rahmen sind für Blockpanel 42 x 42 mm² große Ausnehmungen vorgesehen.   
 
 ---   
-Technische Details und Freecad-Dateien zu Rahmenteilen befinden sich im Unterverzeichnis [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md).   
+Mehr Informationen und Dateien zu Blockpanel findest du hier:   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md).   
 
 [Zum Seitenanfang](#up)
 <a name="x40"></a>   
