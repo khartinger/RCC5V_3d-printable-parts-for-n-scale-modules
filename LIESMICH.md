@@ -25,11 +25,13 @@ Dieses Repository beschäftigt sich mit dem Entwurf und Druck von Modulrahmentei
 <a name="x20"></a>   
 
 # 2. Rahmenteile
-Die hier vorgestellten Rahmenteile für 25 cm breite N-Module haben Längen von 25 bis 100 cm. Da der Drucker maximal 36 cm lange Teile drucken kann, werden die Längsrahmenteile in 25 cm große Abschnitte unterteilt.   
-Das folgende Bild gibt eine Übersicht über die Hauptarten von Rahmenteilen.   
+Die N-Spur-Modelleisenbahn-Module haben eine Breite von 25 cm und eine Länge von 25 bis 100 cm. Da der 3D-Drucker maximal 36 cm große Teile drucken kann, wird der Längsrahmen in 25 cm große Abschnitte unterteilt.   
+Das folgende Bild gibt eine Übersicht über die Rahmenteile.   
 
 ![Uebersicht Rahmenteile](./images/300_3D_frameparts_overview.png "Uebersicht Rahmenteile")   
 _Bild 1: Übersicht über die Lage der Rahmenteile_   
+
+Die Längsrahmenteile haben kleine Haken (2 mm), damit sie zusammenhalten. Durch Noppen in den Querstreben und M3x25 mm Schrauben werden sie dann fixiert.   
 
 Im Detail gibt es folgende Rahmenteile:   
 #### Seitenteile ("West", "Ost")
@@ -37,7 +39,6 @@ Im Detail gibt es folgende Rahmenteile:
   Datei: `Rahmen_SeiteEingleisig_260312.FCStd`   
 * Zweigleisiger Seitenteil mit zwei Gleisen in der Mitte des Rahmenteils   
   Datei: `Rahmen_SeiteZweigleisig_260312.FCStd`   
-
 
 #### Frontrahmen (im Süden)
 * Frontrahmen West   
@@ -58,19 +59,25 @@ __*Beispiel*__
 `Rahmen_Front_W_Oled_4_240mm_260401.FCStd`    
 
 #### Rückseitiger Rahmen ("Nord")
-* Der rückseitige (nördliche) Rahmen wird oft aus Pappelsperrholz gefertigt, da dieser meist einfach zu fertigen und preiswerter ist.   
+Der rückseitige (nördliche) Rahmen wird oft aus Pappelsperrholz gefertigt, da dieser meist einfach zu fertigen und preiswerter ist.   
 Es können aber auch 3D-Frontrahmen ohne Aussparungen verwendet werden.   
 
 #### Querstreben
-Die Querstreben für den 3D-Rahmen unterscheiden sich von den bisherigen Holzquerstreben durch die Lage der seitlichen Bohrungen und die Lage der seitlichen Durchführung:   
+Die Querstreben für den 3D-Rahmen unterscheiden sich von den Holzquerstreben durch die Lage der seitlichen Bohrungen, Noppen bei den Bohrungen und die Lage der seitlichen Durchführung:   
 
 ![Bohrungen Querstreben](./images/300_3D_pos_holes_cross_member.png "Bohrungen Querstreben")   
-_Bild 2: Seitliche Bohrungen und Durchführungen bei Holz- und 3D-Querstreben_   
+_Bild 2: Maße der seitlichen Bohrungen und Durchführungen bei Holz- und 3D-Querstreben_   
+
+Auf den seitlichen Bohrungen befinden sich Noppen, um die Frontteile zu fixieren. Die Größe der Noppen entspricht in etwa dem Kopf von Senkschrauben M3x25 mm.   
+
+![Noppen Querstreben](./images/300_3D_nubs_cross_member.png "Noppen Querstreben")   
+_Bild 3: Noppen auf den seitlichen Bohrungen bei 3D-Querstreben_   
+
 
 #### Rahmen-Distanzplättchen
 Sollte die Zusammenstellung der Front- (oder Nord-) Rahmen zu kurz sein, so kann durch Einfügen von Rahmen-Distanzplättchen die passende Länge erreicht werden. Die Plättchen werden zB zwischen dem Front_E-Rahmen und dem Seitenteil eingefügt und haben Dicken von 0,8 mm, 1 mm, 2,5 mm oder 2 mm.   
 ![Rahmen-Distanzplättchen](./images/300_3D_frame_spacer_plate1.png "Rahmen-Distanzplättchen")   
-_Bild 3: Rahmen-Distanzplättchen_   
+_Bild 4: Rahmen-Distanzplättchen_   
 
 ---   
 Technische Details und Freecad-Dateien zu Rahmenteilen befinden sich im Unterverzeichnis [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md).   
@@ -79,13 +86,13 @@ Technische Details und Freecad-Dateien zu Rahmenteilen befinden sich im Unterver
 <a name="x30"></a>   
 
 # 3. Blockpanel
-Blockpanel sind die Frontplatten der Steuerblöcke. Mit M 2,6 x 10 Schrauben wird auf sie die [Halterung für Schaltblöcke (`RW_LEER_LED`)](https://github.com/khartinger/RCC5V/blob/main/fab/rcc5_add_ons/LIESMICH.md#x20) aufgeschraubt. In die Halterung wird dann der Schaltblock - bestehend aus Steuerungs- und Anzeige-Platine - eingesteckt.   
+Blockpanel sind die Frontplatten der Steuerblöcke. Auf sie wird mit M 2,6 x 10 Schrauben die [Halterung für Schaltblöcke (`RW_LEER_LED`)](https://github.com/khartinger/RCC5V/blob/main/fab/rcc5_add_ons/LIESMICH.md#x20) aufgeschraubt. In weiterer Folge wird dann ein Schaltblock - bestehend aus Steuerungs- und Anzeige-Platine - in die Halterung eingesteckt.   
 Das folgende Bild zeigt ein Blockpanel, die Halterung und den Schaltblock für eine linke Zweiwegweiche.   
 
 ![Blockpanel_Halterung_Schaltblock](./images/300_3D_blockpanel_block1.png "Blockpanel_Halterung_Schaltblock")   
-_Bild 4: Blockpanel, Halterung und Schaltblock für eine linke Zweiwegweiche_   
+_Bild 5: Blockpanel, Halterung und Schaltblock für eine linke Zweiwegweiche_   
 
-Im Rahmen sind für Steuerblöcke 42 x 42 mm² große Ausnehmungen vorgesehen (siehe zB _Bild 1_).   
+Im Rahmen sind für Blockpanel 42 x 42 mm² große Ausnehmungen vorgesehen (siehe zB _Bild 1_).   
 
 Folgende Blockpanel sind unter anderem verfügbar:   
 * Linke Zweiwegweiche Richtung Osten (`Blockpanel_T2LE_260318.FCStd`)   
@@ -101,9 +108,11 @@ Folgende Blockpanel sind unter anderem verfügbar:
 
 Das folgende Bild zeigt die entsprechenden Grafiken:   
 ![Blockpanel_1](./images/300_3D_blockpanel_1of3.png "Blockpanel_1") ![Blockpanel_2](./images/300_3D_blockpanel_2of3.png "Blockpanel_2") ![Blockpanel_3](./images/300_3D_blockpanel_3of3.png "Blockpanel_3")   
-_Bild 5: Arten von Blockpanel_   
+_Bild 6: Arten von Blockpanel_   
 
 Das Blockpanel-Shield dient dazu, die Schrauben zwischen den Frontrahmenteilen abzudecken.   
+---   
+Technische Details und Freecad-Dateien zu Rahmenteilen befinden sich im Unterverzeichnis [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md).   
 
 [Zum Seitenanfang](#up)
 <a name="x40"></a>   
