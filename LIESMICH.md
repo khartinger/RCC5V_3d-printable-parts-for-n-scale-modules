@@ -73,7 +73,6 @@ Auf den seitlichen Bohrungen befinden sich Noppen, um die Frontteile zu fixieren
 ![Noppen Querstreben](./images/300_3D_nubs_cross_member.png "Noppen Querstreben")   
 _Bild 3: Noppen auf den seitlichen Bohrungen bei 3D-Querstreben_   
 
-
 #### Rahmen-Distanzplättchen
 Sollte die Zusammenstellung der Front- (oder Nord-) Rahmen zu kurz sein, so kann durch Einfügen von Rahmen-Distanzplättchen die passende Länge erreicht werden. Die Plättchen werden zB zwischen dem Front_E-Rahmen und dem Seitenteil eingefügt und haben Dicken von 0,8 mm, 1 mm, 2,5 mm oder 2 mm.   
 ![Rahmen-Distanzplättchen](./images/300_3D_frame_spacer_plate1.png "Rahmen-Distanzplättchen")   
@@ -111,6 +110,7 @@ Das folgende Bild zeigt die entsprechenden Grafiken:
 _Bild 6: Arten von Blockpanel_   
 
 Das Blockpanel-Shield dient dazu, die Schrauben zwischen den Frontrahmenteilen abzudecken.   
+
 ---   
 Technische Details und Freecad-Dateien zu Rahmenteilen befinden sich im Unterverzeichnis [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md).   
 
