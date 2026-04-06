@@ -46,13 +46,13 @@ Im Detail gibt es folgende Rahmenteile:
 * Frontrahmen Ost   
 
 Frontrahmen enthalten meist noch Aussparungen für die Steuerblöcke und/oder den OLED-Block (Steuerblock). Somit gibt sich für die Benennung folgende Syntax:   
-```   
-Rahmen_Front_L_1234_240mm_260401.FCStd
- Name _ Typ _L_Fenster_Länge_Datum
 
-L ...... Lage: E = Ost (East), S = Süd, W = West
-1234 ... Fenster (1 bis 4 oder OLED)
-```   
+`Rahmen_Front_L_1234_240mm_260401.FCStd`   
+` Name _ Typ _L_Fenster_Länge_Datum`   
+
+`L ......` Lage: E = Ost (East), S = Süd, W = West   
+`1234 ...` Fenster (1 bis 4 oder OLED)   
+
 __*Beispiel*__   
 ![Rahmen_Front_W_Oled_4](./images/300_Rahmen_Front_W_Oled_4.png "Rahmen_Front_W_Oled_4")   
  Ein Frontrahmen an der Westseite mit Oled-Aussparung und einem Fenster an der 4. Position hat somit den Dateinamen   
