@@ -22,15 +22,23 @@ Weitere Hilfsmittel finden sich auch unter [https://github.com/khartinger/RCC5V/
 <a name="x20"></a>   
 
 # 2. Halterung zur Montage eines Unterflur-Weichenantriebs
-Unterflur-Weichenantriebe werden gelegentlich defekt und müssen getauscht werden. Da die Löcher für die Antriebe klein sind, ist der Aus- bzw. Einbau eine diffizile Angelegenheit. Beim Einbau hilft der folgende "Weichenantriebswechsler":   
-![Weichenantriebswechsler](/images/300_pp7_point_motor_changer.png "Weichenantriebswechsler")   
 
-Der Weichenantrieb wird in die Halterung (vorne) gesteckt und kann dann von unten in die Weiche 
-eingesteckt werden.   
-__Freecad-Datei__: [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/fcstd/Weichenantriebswechsler_260226.FCStd](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/fcstd/Weichenantriebswechsler_260226.FCStd)   
-__Sclicer-Datei__: [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/3mf/Weichenantriebswechsler_260226.3mf](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/3mf/Weichenantriebswechsler_260226.3mf)   
+Unterflur-Weichenantriebe können mit der Zeit defekt werden und müssen ersetzt werden.   
+Da die Weichenantriebs-Öffnungen dafür klein sind, ist der Ein- und Ausbau oft schwierig.   
 
+Zum Einbau hilft der folgende **Weichenantriebswechsler**:   
 
+![Weichenantriebswechsler](/images/300_pp7_point_motor_changer.png "Weichenantriebswechsler")
+
+Der Weichenantrieb wird vorne in die Halterung gesteckt.  
+Danach kann er von unten einfach in die Weiche eingesetzt werden.   
+
+**Freecad-Datei**:   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/fcstd/Weichenantriebswechsler_260226.FCStd](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/fcstd/Weichenantriebswechsler_260226.FCStd)   
+**Slicer-Datei**:   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/3mf/Weichenantriebswechsler_260226.3mf](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/3mf/Weichenantriebswechsler_260226.3mf)   
+
+[Zum Seitenanfang](#up)   
 <a name="x30"></a>   
 
 # 3. Schablone für das Loch bei Unterflurweichen
