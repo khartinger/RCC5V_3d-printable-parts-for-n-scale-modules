@@ -66,7 +66,7 @@ Das Bild zeigt das Blockpanel für eine linke Zweiwegweiche:
 Die [Halterung für Steuerblöcke (`RW_LEER_LED`)](https://github.com/khartinger/RCC5V/blob/main/fab/rcc5_add_ons/LIESMICH.md#x20) wird **hinten auf das Blockpanel geschraubt**. In diese Halterung wird **der Schaltblock gesteckt**, sodass er sicher montiert ist und die Taster/LEDs korrekt sitzen.   
 
 ### 🛠️ Montage im Rahmen
-Im Rahmen sind für Blockpanel 42 x 42 mm² große Ausnehmungen vorgesehen.   
+Im Rahmen sind für Blockpanel **42 x 42 mm²** große Ausnehmungen vorgesehen.   
 
 ---   
 Mehr Informationen und Dateien zu Blockpanel findest du hier:   
@@ -75,7 +75,20 @@ Mehr Informationen und Dateien zu Blockpanel findest du hier:
 [Zum Seitenanfang](#up)
 <a name="x40"></a>   
 
-# 4. Schotterbett (Track Ballast)
+# 4. Schotterbett (Track Ballast)   
+
+Das Schotterbett der Fleischmann-Gleise ist etwas zu schmal.   
+Die richtige Breite an der Basis sollte etwa **32 mm** betragen.   
+
+![Aufbau Bahnkörper](/images/300_aufbau_bahnkoerper.png "Aufbau Bahnkörper")
+
+Hier gibt es passende **Schotterbett-Teile für alle Fleischmann-Gleise**.   
+Die Gleise werden einfach in diese Teile eingelegt.   
+
+_Beispiel_: Bahnkörper (grau) für eine rechte Zweiweg-Weiche:   
+![Bahnkörper1](/images/300_bahnkoerper1.png "Bahnkörper1") 
+![Bahnkörper2](/images/300_bahnkoerper2.png "Bahnkörper2")   
+
 
 ---   
 Mehr Informationen und Dateien zum Schotterbett findest du hier:   
