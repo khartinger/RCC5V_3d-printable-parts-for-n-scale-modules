@@ -8,7 +8,7 @@ Letzte &Auml;nderung: 15.4.2026 <a name="up"></a><br>
 <a name="x10"></a>   
 
 # 1. Worum geht es?
-Dises Verzeichnis enthält **Werkzeuge** und **Hilfsmittel** für für den Bau von Modulrahmen, Gleisunterbau und Zubehörteilen im N‑Spur‑Maßstab (1:160).   
+Dieses Verzeichnis enthält **Werkzeuge** und **Hilfsmittel** für den Bau von Modulrahmen, Gleisunterbau und Zubehörteilen im N‑Spur‑Maßstab (1:160).   
 Weitere Hilfsmittel finden sich auch unter [https://github.com/khartinger/RCC5V/blob/main/fab/3d/LIESMICH.md](https://github.com/khartinger/RCC5V/blob/main/fab/3d/LIESMICH.md).   
 
 <a name="TableOfContents"></a>   

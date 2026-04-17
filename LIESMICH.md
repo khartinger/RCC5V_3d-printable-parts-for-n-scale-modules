@@ -27,7 +27,7 @@ Falls du noch nie mit FreeCAD oder GitHub gearbeitet hast, keine Sorge – es gi
 4. [Schotterbett (Track Ballast)](#x40)   
 5. [Bahndamm (Embankment)](#x50)   
 6. [Weichenabdeckungen (Point Motor Cover)](#x60)    
-7. [Werkzeuge (Tools)](#x70)    
+7. [Werkzeuge und Hilfsmittel (Tools)](#x70)    
 8. [Wie du die Dateien verwendest (kurz erklärt)](#x80)   
 
 <a name="x20"></a>   
@@ -46,7 +46,7 @@ Im Repository findest du dafür:
 
 ---   
 Mehr Informationen und Dateien zu Rahmenteilen findest du hier:   
-[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md).   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp2_baseboard_frame/LIESMICH.md)   
 
 [Zum Seitenanfang](#up)
 <a name="x30"></a>   
@@ -70,7 +70,7 @@ Im Rahmen sind für Blockpanel **42 x 42 mm²** große Ausnehmungen vorgesehen.
 
 ---   
 Mehr Informationen und Dateien zu Blockpanel findest du hier:   
-[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md).   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/blob/main/fab/pp3_block_panel/LIESMICH.md)   
 
 [Zum Seitenanfang](#up)
 <a name="x40"></a>   
@@ -89,32 +89,44 @@ _Beispiel_: Bahnkörper (grau) für eine rechte Zweiweg-Weiche:
 ![Bahnkörper1](/images/300_bahnkoerper1.png "Bahnkörper1") 
 ![Bahnkörper2](/images/300_bahnkoerper2.png "Bahnkörper2")   
 
-
 ---   
 Mehr Informationen und Dateien zum Schotterbett findest du hier:   
-[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp4_track_ballast](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp4_track_ballast)   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp4_track_ballast](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp4_track_ballast/LIESMICH.md)   
 
 [Zum Seitenanfang](#up)
 <a name="x50"></a>   
 
 # 5. Bahndamm (Embankment)
+Im Gelände liegt das Schotterbett auf einem Bahndamm. Der Bahndamm hat an der Basis eine Breite von etwa **48 mm bis 50 mm**.  
+Auf den Bildern oben ist er als schwarzer 3D-Druck zu sehen.  
 
 ---   
 Mehr Informationen und Dateien zum Bahndamm findest du hier:   
-[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp5_embankment](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp5_embankment)   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp5_embankment](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp5_embankment/LIESMICH.md)   
 
 [Zum Seitenanfang](#up)
 <a name="x60"></a>   
 
 # 6. Weichenabdeckungen (Point Motor Cover)
+Das Schalten von Weichen erfolgt mit **Weichenantrieben**.   
+Bei Fleischmann N-Spur-Gleisen mit Schotterbett sind diese einheitlich aufgebaut.   
+Sie können **über der Platte (Überflur)** oder **unter der Platte (Unterflur)** montiert werden.   
+
+Für die **Unterflur-Montage** muss die Grundplatte ausgeschnitten werden.   
+Nach dem Einbau der Antriebe sollten diese Öffnungen gut abgedeckt werden.   
+So wird verhindert, dass **Schotter oder Schmutz** in den Weichenantrieb gelangen.   
+
 ---   
 Mehr Informationen und Dateien zu Weichenabdeckungen findest du hier:   
-[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp6_point_motor_cover/](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp6_point_motor_cover/)   
+[https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp6_point_motor_cover](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp6_point_motor_cover/LIESMICH.md)   
 
 [Zum Seitenanfang](#up)
 <a name="x70"></a>   
 
-# 7. Werkzeuge (Tools)
+# 7. Werkzeuge und Hilfsmittel (Tools)
+Dieser Bereich enthält **Werkzeuge** und **Hilfsmittel** für den Bau von Modulrahmen, Gleisunterbau und Zubehörteilen im N‑Spur‑Maßstab (1:160).   
+Beispiele sind der **Weichenantriebswechsler** oder **Schablonen** zum Anzeichnen der Öffnungen für Unterflur-Weichenantriebe.   
+
 ---   
 Mehr Informationen und Dateien zu Werkzeugen findest du hier:   
 [https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools](https://github.com/khartinger/RCC5V_3d-printable-parts-for-n-scale-modules/tree/main/fab/pp7_tools/LIESMICH.md)   
@@ -122,8 +134,36 @@ Mehr Informationen und Dateien zu Werkzeugen findest du hier:
 [Zum Seitenanfang](#up)
 <a name="x80"></a>   
 
-# 8. Wie du die Dateien verwendest (kurz erklärt)
+# 🛠️ 8. Wie du die Dateien verwendest (kurz erklärt)
 
+**1. FreeCAD öffnen**  
+Lade FreeCAD herunter (kostenlos, Open Source). ([learn.adafruit.com](https://learn.adafruit.com/how-to-use-3d-parts-github-repo?utm_source=chatgpt.com))
 
+**2. Datei auswählen**  
+Jedes Teil liegt als `.FCStd` (FreeCAD‑Projekt) oder `.STL` (Druckdatei) vor.  
+
+**3. Slicer vorbereiten**  
+Importiere STL‑Dateien in deinen Slicer (z. B. PrusaSlicer), um die Druck‑Einstellungen festzulegen.  
+
+**4. Drucken**  
+Nutze geeignete Einstellungen für dein Material (z. B. PLA oder PETG) und Drucker.  
+
+---
+
+## 🤝 Weiterführende Tipps
+
+- Wenn du Teile in deinem eigenen Projekt verwenden möchtest, **erstelle einen eigenen GitHub‑Fork**, bevor du Änderungen machst. Das erleichtert Updates.  
+- Viele Modellbahner tauschen sich in Foren über **N‑Scale‑3D‑Druck‑Erfahrungen** aus – das kann bei Fragen sehr hilfreich sein. ([nscale.net](https://www.nscale.net/forum/modeling/modeling-techniques/33939-3d-printing-in-n-scale?utm_source=chatgpt.com))
+
+---
+
+## 📌 Zusammenfassung
+
+Dieses Projekt liefert:
+
+- 📦 3D‑druckbare Module und Komponenten im **N‑Spur‑Format**  
+- 🛠️ Freie CAD‑Dateien aus **FreeCAD**  
+- 📐 Rahmen‑ und Panel‑Elemente, die sich modular kombinieren lassen  
+- 🧰 Werkzeuge und Strukturteile für deine Modellbahn‑Anlage  
 
 [Zum Seitenanfang](#up)
