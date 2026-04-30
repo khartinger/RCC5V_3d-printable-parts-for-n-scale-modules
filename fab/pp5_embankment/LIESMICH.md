@@ -10,7 +10,7 @@ Letzte &Auml;nderung: 17.4.2026 <a name="up"></a><br>
 # 1. Worum geht es?
 Dieses Verzeichnis enthält **Bahndamm-Dateien** für N-Piccolo-Gleise mit Schotterbett (Fa. Fleischmann) und 3D-Schotterbett.   
 _Beispiel_: Bahndamm für gerades Gleis 9103   
-![Bahndamm Gerade 9103](/images/300_pp4_embankment_9103.png "Bahndamm Gerade 9103")   
+![Bahndamm Gerade 9103](/images/300_pp5_embankment_9103_cad.png "Bahndamm Gerade 9103")   
 
 Für alle Modelle gilt:  
 * An den Verbindungskanten befinden sich zwei halbe Bohrungen. So können an jeder Stoßstelle Kabel für die Gleisstromversorgung durchgeführt werden. Da sich die Bohrungen unter dem Gleisbett befinden, sind sie von außen nicht sichtbar.  
