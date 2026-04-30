@@ -11,6 +11,9 @@ Letzte &Auml;nderung: 6.4.2026 <a name="up"></a><br>
 Blockpanels sind die **Frontplatten für Steuerblöcke** aus dem Repository [`khartinger/RCC5V`](https://github.com/khartinger/RCC5V/blob/main/LIESMICH.md).   
 Für jeden Steuerblock gibt es das passende Frontpanel.   
 
+_Beispiel_: Blockpanel für eine linke Zweiwegweiche:   
+![Blockpanel_Zweiwegweiche](/images/150_3D_blockpanel_W2LE.png "Blockpanel_Zweiwegweiche")   
+
 <a name="TableOfContents"></a>   
 
 ## Inhaltsverzeichnis

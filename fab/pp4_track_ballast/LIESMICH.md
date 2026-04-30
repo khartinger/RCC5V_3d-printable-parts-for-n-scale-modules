@@ -9,6 +9,7 @@ Letzte &Auml;nderung: 17.4.2026 <a name="up"></a><br>
 
 # 1. Worum geht es?
 Dieses Verzeichnis enthält **Schotterbett-Dateien** für N-Piccolo-Gleise mit Schotterbett (Fa. Fleischmann) im N‑Spur‑Maßstab (1:160). In diese 3D-Drucke werden die Fleischmann-Gleise eingelegt, damit ein breiteres Schotterbett entsteht.   
+
 _Beispiel_: Schotterbett für gerades Gleis 9103   
 ![Schotterbett Gerade 9103](/images/300_pp4_track_ballast_9103_cad.png "Schotterbett Gerade 9103")   
 
