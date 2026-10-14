@@ -1,25 +1,37 @@
 <table><tr><td><img src="/images/96_RCC5V_Logo.png"></img></td><td>
-Letzte &Auml;nderung: 6.4.2026 <a name="up"></a><br>   
-<h1>Rahmenteile</h1><h3>3D-Druck-Teile für N-Spur-Module</h3>
+Letzte &Auml;nderung: 14.10.2026 <a name="up"></a><br>   
+<h1>Rahmenteile</h1><h3>3D-Druck-Teile zum Bau von N-Spur-Modul-Rahmen</h3>
 <a href="#TableOfContents">==> Inhaltsverzeichnis</a>&nbsp; &nbsp; &nbsp;  &nbsp; 
 <a href="README.md">==> English version</a>
 </td></tr></table>   
 
 <a name="x10"></a>   
 
-# Worum geht es?
-Dieses Verzeichnis enthält Details zu den Rahmenteilen sowie die Freecad-Zeichnungen.   
-Das folgende Bild gibt eine Übersicht über die Rahmenteile.   
+# 🛠️ Worum geht es?
 
-![Uebersicht Rahmenteile](/images/300_3D_frameparts_overview.png "Uebersicht Rahmenteile")   
-_Bild 1: Übersicht über die Lage der Rahmenteile_   
+Die in diesem Repository vorgestellten **N-Spur-Module** sind in der Regel **25 cm breit** und **25 bis 100 cm lang**. Die dafür benötigten Rahmen werden üblicherweise aus Sperrholz gefertigt. Alternativ können die Rahmenteile auch im **3D-Druck** hergestellt werden.
+
+Damit die Rahmenteile auf gängigen 3D-Druckern gefertigt werden können, wird der Rahmen in einzelne Abschnitte mit einer maximalen Länge von **26 cm** unterteilt.
+
+Dieses Verzeichnis enthält detaillierte Informationen zu den einzelnen Rahmenteilen sowie die zugehörigen **FreeCAD-Zeichnungen**.
+
+## 📐 Übersicht der Rahmenteile
+
+Die folgende Abbildung zeigt die Anordnung und Lage der einzelnen Rahmenteile.
+
+![Übersicht über Rahmenteile](/images/300_3D_frameparts_overview.png "Übersicht über Rahmenteile")
+
+*Abbildung 1: Übersicht über die Rahmenteile eines 750 mm langen Moduls*
 
 Es gibt   
-1. [Seitenteile ("West", "Ost")](#x10)   
+1. [Seitenteile ("West", "Ost" bzw. single und double-track)](#x10)   
 2. [Frontrahmen (im Süden - "West", "Süd", "Ost")](#x20)   
-3. [Rückseitiger Rahmen ("Nord")](#x30)   
+3. [Rückseitiger Rahmen (im Norden - "West", "Süd", "Ost")](#x30)   
 4. [Querstreben](#x40)   
 5. [Distanzplättchen](#x50)   
+
+Einen Spezialfall stellen 25 cm lange Module dar. Diese bestehen aus einem **230 mm** langen Süd- und Nordteil sowie den beiden Seitenteilen.
+
 
 <a name="x10"></a>   
 
@@ -33,8 +45,8 @@ Die Maße zeigt das folgende Bild:
 _Bild 3: Maße des seitlichen Rahmenteils mit einem Gleis in der Mitte_   
 
 _**Dateinamen**_:   
-* `Rahmen_SeiteEingleisig_260312.FCStd` ... Eingleisiger Seitenteil mit Gleis in der Mitte des Rahmenteils   
-* `Rahmen_SeiteZweigleisig_260312.FCStd` ... Zweigleisiger Seitenteil mit zwei Gleisen in der Mitte des Rahmenteils   
+* `frame_side_single-track_261013.FCStd` ... Eingleisiger Seitenteil mit Gleis in der Mitte des Rahmenteils   
+* `frame_side_double-track_261013.FCStd` ... Zweigleisiger Seitenteil mit zwei Gleisen in der Mitte des Rahmenteils   
 
 <a name="x20"></a>   
 
@@ -50,16 +62,16 @@ Die Nasen der Frontrahmen werden zusammengehängt und durch die Noppen in den Qu
 _**Dateinamen**_:   
 Frontrahmen können Aussparungen für Steuerblöcke und/oder den OLED-Block (Steuerblock) enthalten. Dies steht dann in den Dateinamen:   
 
-`Rahmen_Front_L_1234_240mm_260401.FCStd`   
+`frame_front_L_1234_240mm_261013.FCStd`   
 ` Name _ Typ _L_Fenster_Länge_Datum`   
 mit   
-`L ......` Lage: E = Ost (East), S = Süd, W = West   
+`L ......` Lage: E = Ost (East), S = Süd, W = West, N = Nord   
 `1234 ...` Fenster (1 bis 4 oder OLED)   
 
 __*Beispiel*__   
 ![Rahmen_Front_W_Oled_4](/images/300_Rahmen_Front_W_Oled_4.png "Rahmen_Front_W_Oled_4")   
  Ein Frontrahmen an der Westseite mit Oled-Aussparung und einem Fenster an der 4. Position hat somit den Dateinamen   
-`Rahmen_Front_W_Oled_4_240mm_260401.FCStd`    
+`frame_front_W_Oled_4_240mm_261013.FCStd`    
 
 <a name="x30"></a>   
 
