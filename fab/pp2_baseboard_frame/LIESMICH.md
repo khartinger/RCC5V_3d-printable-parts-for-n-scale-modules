@@ -23,6 +23,8 @@ Die folgende Abbildung zeigt die Anordnung und Lage der einzelnen Rahmenteile.
 
 *Abbildung 1: Übersicht über die Rahmenteile eines 750 mm langen Moduls*
 
+<a name="TableOfContents"></a>   
+
 Es gibt   
 1. [Seitenteile ("West", "Ost" bzw. single und double-track)](#x10)   
 2. [Frontrahmen (im Süden - "West", "Süd", "Ost")](#x20)   
