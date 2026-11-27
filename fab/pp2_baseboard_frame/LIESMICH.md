@@ -75,6 +75,9 @@ __*Beispiel*__
  Ein Frontrahmen an der Westseite mit Oled-Aussparung und einem Fenster an der 4. Position hat somit den Dateinamen   
 `frame_front_W_Oled_4_240mm_261013.FCStd`    
 
+### Außenmaße des Rahmens
+![Rahmen_Front_W_Oled_34_Maße](/images/300_Rahmen_Front_W_Oled_34_dim.png "Rahmen_Front_W_Oled_34_Maße")   
+
 <a name="x30"></a>   
 
 # 3. Rückseitiger Rahmen ("Nord")
